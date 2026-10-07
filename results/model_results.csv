@@ -1,0 +1,10 @@
+feature_set,model,train_rows,test_rows,rmse,mae,r2,alpha
+Weather + season + supply,Linear,13171,3680,215.075,168.0765,-0.1507,
+Weather + season + supply,Ridge,13171,3680,306.7217,264.5274,-1.3402,492.3883
+Weather + season + supply,Lasso,13171,3680,225.7036,180.8242,-0.2672,0.4125
+Weather + season + supply,Baseline: training mean,13171,3680,497.3492,458.0004,-5.153,
+Same + lagged prices,Linear,13021,3680,152.3242,88.5939,0.4228,
+Same + lagged prices,Ridge,13021,3680,185.7299,139.5861,0.1419,701.7038
+Same + lagged prices,Lasso,13021,3680,169.9561,120.0134,0.2815,4.9239
+Same + lagged prices,Baseline: training mean,13021,3680,495.4299,455.9923,-5.1056,
+Same + lagged prices,Baseline: previous day's price,13021,3680,183.6147,90.6941,0.1613,

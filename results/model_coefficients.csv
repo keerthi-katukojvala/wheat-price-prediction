@@ -1,0 +1,26 @@
+feature,feature_set,Linear,Ridge,Lasso
+log_arrivals,Weather + season + supply,25.087,22.6993,25.5602
+sharbati_share,Weather + season + supply,23.8786,22.9269,23.2322
+n_markets,Weather + season + supply,3.9813,4.9877,2.8854
+harvest_season,Weather + season + supply,58.5509,42.4838,51.5071
+days_from_start,Weather + season + supply,131.646,91.7262,128.705
+rain_30d,Weather + season + supply,5.4874,9.1457,6.8069
+rain_90d,Weather + season + supply,0.7049,16.9305,0.0
+tmax_30d,Weather + season + supply,-60.21,-33.7946,-59.9603
+tmax_90d,Weather + season + supply,5.3568,-19.6101,0.0
+tmin_30d,Weather + season + supply,-17.5865,-0.1951,-0.0
+tmin_90d,Weather + season + supply,13.1169,22.9816,0.6396
+log_arrivals,Same + lagged prices,23.2212,19.6656,13.1725
+sharbati_share,Same + lagged prices,20.7604,19.4104,12.171
+n_markets,Same + lagged prices,4.4869,4.9941,0.0
+harvest_season,Same + lagged prices,29.5513,17.5903,0.0
+days_from_start,Same + lagged prices,69.5233,40.9531,12.3611
+rain_30d,Same + lagged prices,3.3588,4.7326,0.0
+rain_90d,Same + lagged prices,0.4185,7.8872,9.3743
+tmax_30d,Same + lagged prices,-25.2069,-16.7367,-0.6992
+tmax_90d,Same + lagged prices,17.1703,-7.0262,-0.0
+tmin_30d,Same + lagged prices,-39.2213,-4.3686,-0.0
+tmin_90d,Same + lagged prices,11.4279,11.845,0.0
+price_lag1,Same + lagged prices,13.5216,21.8382,14.0017
+price_prev5_mean,Same + lagged prices,71.923,62.9456,100.9285
+days_since_prev,Same + lagged prices,0.5792,1.1685,0.0
